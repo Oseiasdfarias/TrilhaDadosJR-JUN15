@@ -16,6 +16,7 @@ numpy = "^2.0.1"
 statistics = "^1.0.3.5"
 statsmodels = "^0.14.2"
 pingouin = "^0.5.4"
+scipy = "^1.14.0"
 
 
 [build-system]
