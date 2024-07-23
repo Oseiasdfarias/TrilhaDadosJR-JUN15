@@ -44,7 +44,7 @@ Para solucionar o case foi usado o Jupyter notebook, para ter acesso a análise 
  ```
 
 <div>
-<!-- <style scoped>
+<style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -56,7 +56,7 @@ Para solucionar o case foi usado o Jupyter notebook, para ter acesso a análise 
     .dataframe thead th {
         text-align: right;
     }
-</style> -->
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -143,21 +143,7 @@ memory usage: 1.1+ KB
   df_vendas.describe()
  ```
 
-
 <div>
-<!-- <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style> -->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -193,19 +179,19 @@ memory usage: 1.1+ KB
       <td>39.900000</td>
     </tr>
     <tr>
-      <th>25%</th>
+      <th>25%</</th>
       <td>7.000000</td>
       <td>10.000000</td>
       <td>69.900000</td>
     </tr>
     <tr>
-      <th>50%</th>
+      <th>50%</</th>
       <td>13.000000</td>
       <td>15.000000</td>
       <td>79.900000</td>
     </tr>
     <tr>
-      <th>75%</th>
+      <th>75%</</th>
       <td>19.000000</td>
       <td>20.000000</td>
       <td>99.900000</td>
