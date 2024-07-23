@@ -24,6 +24,48 @@ Este projeto tem como objetivo realizar uma análise básica de dados utilizando
 
 ---
 
+## Requisitos
+
+>> 1. python = "^3.10"
+>> 2. notebook = "^7.2.1"
+>> 3. pip ou poetry
+
+---
+
+## Como executar o Projeto
+
+Para usar o projeto você deve criar um ambiente virtual do Python, para isso você deve ter instalado em seu computador o pyenv, virtualenv ou poetry.
+
+Obs: Copie apenas o texto, sem o simbolo ❯.
+
+
+### Com venv do Python
+
+```bash
+❯ python -m venv .venv
+
+# Ativando o ambiente no Windows
+❯ source .venv/bin/activate
+
+# Ativando o ambiente no Linux e Mac
+❯ source .venv/bin/activate
+
+❯ pip install -r requirements.txt
+```
+
+
+### Com Poetry
+
+```bash
+# Ativando a virtual env
+❯ poetry shell
+
+# instalando as dependências
+❯ poetry install
+```
+
+
+
 
 # Solução do Case
 
