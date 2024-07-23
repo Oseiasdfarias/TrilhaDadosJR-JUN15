@@ -55,7 +55,6 @@ Obs: Copie apenas o texto, sem o simbolo ❯.
 
 
 ### Com Poetry
-
 ```bash
 # Ativando a virtual env
 ❯ poetry shell
