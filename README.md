@@ -43,75 +43,14 @@ Para solucionar o case foi usado o Jupyter notebook, para ter acesso a análise 
   df_vendas.head()
  ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+|   | ID | Nome do Curso                                 | Quantidade de Vendas | Preço Unitário | Data       |
+|---|----|-----------------------------------------------|----------------------|----------------|------------|
+| 0 | 1  | Introdução à Programação em Python            | 50                   | 39.9           | 2023-01-01 |
+| 1 | 2  | Desenvolvimento Web com HTML e CSS            | 30                   | 59.9           | 2023-01-02 |
+| 2 | 3  | JavaScript Avançado: Frameworks e Bibliotecas | 20                   | 79.9           | 2023-01-03 |
+| 3 | 4  | Introdução ao Machine Learning                | 15                   | 99.9           | 2023-01-04 |
+| 4 | 5  | Desenvolvimento Mobile com React Native       | 25                   | 69.9           | 2023-01-05 |
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ID</th>
-      <th>Nome do Curso</th>
-      <th>Quantidade de Vendas</th>
-      <th>Preço Unitário</th>
-      <th>Data</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Introdução à Programação em Python</td>
-      <td>50</td>
-      <td>39.9</td>
-      <td>2023-01-01</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Desenvolvimento Web com HTML e CSS</td>
-      <td>30</td>
-      <td>59.9</td>
-      <td>2023-01-02</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>JavaScript Avançado: Frameworks e Bibliotecas</td>
-      <td>20</td>
-      <td>79.9</td>
-      <td>2023-01-03</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Introdução ao Machine Learning</td>
-      <td>15</td>
-      <td>99.9</td>
-      <td>2023-01-04</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Desenvolvimento Mobile com React Native</td>
-      <td>25</td>
-      <td>69.9</td>
-      <td>2023-01-05</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -143,68 +82,17 @@ memory usage: 1.1+ KB
   df_vendas.describe()
  ```
 
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ID</th>
-      <th>Quantidade de Vendas</th>
-      <th>Preço Unitário</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>25.000000</td>
-      <td>25.000000</td>
-      <td>25.000000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>13.000000</td>
-      <td>17.960000</td>
-      <td>83.900000</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>7.359801</td>
-      <td>10.921996</td>
-      <td>21.984843</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>1.000000</td>
-      <td>5.000000</td>
-      <td>39.900000</td>
-    </tr>
-    <tr>
-      <th>25%</</th>
-      <td>7.000000</td>
-      <td>10.000000</td>
-      <td>69.900000</td>
-    </tr>
-    <tr>
-      <th>50%</</th>
-      <td>13.000000</td>
-      <td>15.000000</td>
-      <td>79.900000</td>
-    </tr>
-    <tr>
-      <th>75%</</th>
-      <td>19.000000</td>
-      <td>20.000000</td>
-      <td>99.900000</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>25.000000</td>
-      <td>50.000000</td>
-      <td>119.900000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+|       | ID        | Quantidade de Vendas | Preço Unitário |
+|-------|-----------|----------------------|----------------|
+| count | 25.000000 | 25.000000            | 25.000000      |
+| mean  | 13.000000 | 17.960000            | 83.900000      |
+| std   | 7.359801  | 10.921996            | 21.984843      |
+| min   | 1.000000  | 5.000000             | 39.900000      |
+| 25%   | 7.000000  | 10.000000            | 69.900000      |
+| 50%   | 13.000000 | 15.000000            | 79.900000      |
+| 75%   | 19.000000 | 20.000000            | 99.900000      |
+| max   | 25.000000 | 50.000000            | 119.900000     |
+
 
 
 + ***Distribuição da Variável Quantidade de Vendas***
