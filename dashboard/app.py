@@ -69,7 +69,7 @@ class Dashboard:
         """Método responável por implementar a estrutura do Dashboard."""
         # Melhorar o layout com colunas para KPIs
         st.subheader("KPIs Principais")
-        col1, col2, col3 = st.columns(3)
+        col1, col2 = st.columns(2)
 
         # KPI 1: Número Total de vendas
         total_items = round(np.sum(df.qt_de_vendas*df.preco_unitario), 2)
@@ -105,7 +105,7 @@ class Dashboard:
         # Visualizar a distribuição das
         # vendas ao longo do tempo através de gráficos.
         st.subheader('Distribuição das Vendas ao Longo do Tempo')
-        col1, col2 = st.columns([4, 2])
+        col1, col2 = st.columns([6, 3])
 
         fig1 = px.bar(df, x='data',
                       y='qt_de_vendas',
