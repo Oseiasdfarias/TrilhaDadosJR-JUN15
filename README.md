@@ -44,7 +44,7 @@ Para solucionar o case foi usado o Jupyter notebook, para ter acesso a análise 
  ```
 
 <div>
-<style scoped>
+<!-- <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -56,7 +56,7 @@ Para solucionar o case foi usado o Jupyter notebook, para ter acesso a análise 
     .dataframe thead th {
         text-align: right;
     }
-</style>
+</style> -->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -145,7 +145,7 @@ memory usage: 1.1+ KB
 
 
 <div>
-<style scoped>
+<!-- <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -157,7 +157,7 @@ memory usage: 1.1+ KB
     .dataframe thead th {
         text-align: right;
     }
-</style>
+</style> -->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
