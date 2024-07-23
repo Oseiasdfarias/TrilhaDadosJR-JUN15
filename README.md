@@ -55,6 +55,7 @@ Obs: Copie apenas o texto, sem o simbolo ❯.
 
 
 ### Com Poetry
+
 ```bash
 # Ativando a virtual env
 ❯ poetry shell
@@ -247,6 +248,16 @@ Além da análise exploratória dos dados, foi implementado um scritp python par
 4. Salva os dados tratado no subpasta `data/gold`.
 
 
+Para executar o código, basta entrar na pasta do projeto, ativar o ambiente virtual via terminal e executar o seguinte comando:
+
+
+```bash
+❯ python src/processamento_database.py 
+```
+
+
+##### Código completo
+
 ```python
 import pandas as pd
 
@@ -279,6 +290,25 @@ df_vendas.to_csv("./data/gold/tratados_dados_vendas_cursos_online.csv",
 ### Dashboard
 
 Por fim, foi implementado um Dashboard usando `Streamlit` para melhor visualização dos insights.
+
+Para executar o código, basta entrar na pasta do projeto, ativar o ambiente virtual via terminal e executar o seguinte comando:
+
+
+```bash
+❯ streamlit run dashboard/app.py
+```
+
+Se tudo ocorrer corretamente terá o seguinte log em seu terminal e o Dashboard irá abrir em seu navegador padrão.
+
+
+> **lOG no terminal**
+
+<p align="center">
+  <img width="90%" src="./reports/run_dashboard.png">
+</p>
+
+
+> **Dashboard em Execução**
 
 <p align="center">
   <img width="90%" src="./reports/demo_dashboard.png">
