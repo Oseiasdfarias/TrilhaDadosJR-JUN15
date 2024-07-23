@@ -301,7 +301,7 @@ Para executar o código, basta entrar na pasta do projeto, ativar o ambiente vir
 Se tudo ocorrer corretamente terá o seguinte log em seu terminal e o Dashboard irá abrir em seu navegador padrão.
 
 
-> **lOG no terminal**
+> **LOG no terminal**
 
 <p align="center">
   <img width="90%" src="./reports/run_dashboard.png">
