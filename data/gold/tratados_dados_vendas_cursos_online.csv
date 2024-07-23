@@ -1,0 +1,26 @@
+ID,nome_curso,qt_de_vendas,preco_unitario,data,valor_vendas
+1,Introdução à Programação em Python,50,39.9,2023-01-01,2500
+2,Desenvolvimento Web com HTML e CSS,30,59.9,2023-01-02,900
+3,JavaScript Avançado: Frameworks e Bibliotecas,20,79.9,2023-01-03,400
+4,Introdução ao Machine Learning,15,99.9,2023-01-04,225
+5,Desenvolvimento Mobile com React Native,25,69.9,2023-01-05,625
+6,Arquitetura de Microserviços,12,89.9,2023-01-06,144
+7,Banco de Dados SQL e NoSQL,18,79.9,2023-01-07,324
+8,Segurança da Informação: Fundamentos,10,109.9,2023-01-08,100
+9,Cloud Computing com AWS,22,99.9,2023-01-09,484
+10,DevOps: Integração e Entrega Contínua,8,119.9,2023-01-10,64
+11,Desenvolvimento Web com HTML e CSS,20,59.9,2023-01-11,400
+12,JavaScript Avançado: Frameworks e Bibliotecas,15,79.9,2023-01-12,225
+13,Introdução ao Machine Learning,10,99.9,2023-01-13,100
+14,Desenvolvimento Mobile com React Native,18,69.9,2023-01-14,324
+15,Arquitetura de Microserviços,8,89.9,2023-01-15,64
+16,Banco de Dados SQL e NoSQL,12,79.9,2023-01-16,144
+17,Segurança da Informação: Fundamentos,5,109.9,2023-01-17,25
+18,Cloud Computing com AWS,15,99.9,2023-01-18,225
+19,DevOps: Integração e Entrega Contínua,6,119.9,2023-01-19,36
+20,Introdução à Programação em Python,45,39.9,2023-01-20,2025
+21,Desenvolvimento Web com HTML e CSS,25,59.9,2023-01-21,625
+22,JavaScript Avançado: Frameworks e Bibliotecas,18,79.9,2023-01-22,324
+23,Introdução ao Machine Learning,12,99.9,2023-01-23,144
+24,Desenvolvimento Mobile com React Native,20,69.9,2023-01-24,400
+25,Arquitetura de Microserviços,10,89.9,2023-01-25,100
